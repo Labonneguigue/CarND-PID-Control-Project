@@ -6,13 +6,15 @@ Self-Driving Car Engineer Nanodegree Program
 [//]: # (Image References)
 
 [pid]: images/pid.tiff "pid"
-
+[sim]: images/sim.tiff "sim"
 
 ## PID Controller
 
 A controller takes as input(s) sensor data and convert it/them into an output that is directly controlling an actuator to impact an object's position or state in the physical world.
 
-In this case, I'm controlling a car in a simulator.
+In this case, I'm controlling a car in a simulator. Here is a capture of it:
+
+![alt text][sim]
 
 Input:
 * Cross track error `cte` (distance of the car form the center of the road).
